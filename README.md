@@ -17,6 +17,9 @@ For example, the root node in the treap in Figure 1 has “h” as key and 9 as 
 ## Basic Operations of the Treap:
 • Supports core BST operations - adding nodes, deleting nodes by trickling down to leaf and setting to null, finding/searching nodes.
 Maintains heap property through left and right rotations when adding or removing nodes, based on priority comparisons.
+
 • Includes helper methods for rotations, deleting nodes, traversing the tree.
+
 • Implements comparable generic typing for the data elements.
+
 • Provides a toString() method to print out the tree structure for testing/visualization.
